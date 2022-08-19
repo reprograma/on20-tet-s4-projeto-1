@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 20 - Todas em Tech  | Front-end | Semana 4 | 2022 | Professora X
+Turma Online 20 - Todas em Tech  | Front-end | Semana 4 | 2022 | Professora Jaqueline Almeida
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
