@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: #674582;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 2px;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  height: 104px;
+}
+
+.navbar__logo {
+  max-width: 200px;
+}
+
+.navbar__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar__nav {
+  font-size: 18px;
+  display: flex;
+}
+
+.navbar__nav > li {
+  margin: 0 16px;
+  font-weight: bold;
+  color:#fff;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* HEADER */
+
+.header {
+  min-height: 80vh;
+  width: 100%;
+  /* geralmente corrige distorçao */
+  background-size: cover;
+  background-image: url(../img/bg-banner.png);
+  display: flex;
+  /* align é para eixo Y */
+  align-items: flex-end;
+  /* justify é para eixo X */
+  justify-content: center;
+}
+
+.header__titulo {
+  margin-bottom: 36px;
+  font-size: 72px;
+  color: #fff;
+}
+
+/* --- BOTAO --- */
+
+/* SECAO Maravilhosa */
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin: 36px auto;
+}
+
+.minibio {
+  display: flex;
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.minibio__img {
+  width: 210px;
+  height: 210px;
+  border-radius: 16px;
+  background-color: #674582;
+  margin-right: 48px;
+}
+
+.minibio p {
+  width: 80%;
+  font-size: 30px;
+}
+
+/* citacao */
+
+.citacao {
+  font-size: 36px;
+  border: 1px solid #674582;
+  padding: 36px;
+  line-height: 50px;
+  margin: 48px auto;
+}
+
+/* AUTORA */
+.autora {
+  background-color: #e4b7e5;
+  height: 260px;
+  display: flex;
+  /* Garante que está centralizado no eixo X */
+  justify-content: center;
+}
+
+.autora__container {
+  display: flex;
+}
+
+.autora__img {
+  max-width: 260px;
+}
+
+.autora__info {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 36px;
+}
+
+/* FOOTER */
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 656px;
+  }
+}
