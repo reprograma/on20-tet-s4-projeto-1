@@ -1,10 +1,12 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## Vamos codarrrrrr!
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Explicação do exercício:
+Teremos três atividades:
+1 - Uma dose de **kahoot**! 🤓
+2 - Vocês vão me ajudar a construir uma **página com a estrutura básica de HTML** e **estilizá-la**. 🚀
+3 - Vou reaproveitar esta página para criar minha página **M de Maravilhosa**! 
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
