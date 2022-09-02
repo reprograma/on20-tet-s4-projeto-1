@@ -257,8 +257,8 @@ Há um padrão dos break point que são mais utilizados, devido os diversos tama
 
 Chegamos ao final! Este é uma revisão de base para você dá continuidade aos seus estudos,
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+* [Exercicio para sala](https://github.com/reprograma/on20-tet-s4-projeto-1/tree/main/exercicios/para-sala)
+* [Exercicio para casa](https://github.com/reprograma/on20-tet-s4-projeto-1/tree/main/exercicios/para-casa)
 
 ### Material da aula 
 
