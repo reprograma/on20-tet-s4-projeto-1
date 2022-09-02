@@ -119,7 +119,7 @@ Com estes dois conceitos bem fixados, você vai longe!
 - Tags estruturais: **html, meta,body, main, style, link,  title**
 - Cabeçalho : **header, nav**
 - Titulos: **h1 a h6**
-- Paragráfo : **p**
+- Parágrafo : **p**
 - Link : **a e seus atributos**
 - Listas: **ol, ul e li**
 - Formatação de caracteres: **em e strong**
@@ -148,11 +148,11 @@ As tags podem ser nomeadas de acordo com o conteúdo da página que está sendo 
 Para chamá-los, o padrão é:
 
 ```
-.nomedaclass
+  <p class="paragrafo"></p>
 
 ```
 ```
-#nomedoid
+  <header class="cabeçalho"></p>
 
 ```
 
