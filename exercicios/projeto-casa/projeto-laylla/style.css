@@ -5,3 +5,30 @@ body {
     font-family: "Source Sans Pro", Arial, Helvetica,sans-serif;
     background-image: url("./img/background.png");
 }
+.nav__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: rgb(4, 83, 4);
+    align-items: center;
+}
+
+.imagem_logo {
+    width: 100px;
+    height: 140px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-lista {
+    color: #ffff;
+    text-decoration: none;
+
+}
