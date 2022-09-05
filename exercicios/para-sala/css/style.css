@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #674582;
+}
+
+ul {
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f7f5f8;
+    margin: 2px;
+}
+
+.cabecalho {
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    /* position: fixed; */
+    width: 100%;
+    height: 124px;
+
+}
+
+.img-responsive {
+    max-width: 200px;
+
+}
+
+.nav-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}    
+
+.lista-nav {
+    font-size: 18px;
+    display: flex;
+}
+
+.lista-nav > li {
+    margin: 0 16px;
+
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url("../img/bg-banner.png");
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.titulo__container {
+    font-size: 36px;
+    text-align: center;
+    margin: 36px auto ;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 954px;
+    margin: 0 auto;
+
+}
+.maravilhosa .maravilhosa__img >img {
+width: 210px;
+height: 210px;
+border-radius: 16px;
+background-color: #674582;
+}
+
+#gabriela {
+    width: 210px;
+    height: 210px;
+    border-radius: 16px;
+    background-color: #674582;
+}
