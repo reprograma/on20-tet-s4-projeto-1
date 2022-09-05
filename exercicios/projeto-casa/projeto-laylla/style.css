@@ -1,0 +1,7 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans Pro", Arial, Helvetica,sans-serif;
+    background-image: url("./img/background.png");
+}
