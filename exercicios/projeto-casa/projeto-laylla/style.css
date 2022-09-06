@@ -6,6 +6,7 @@ body {
     background-image: url("./img/background.png");
 }
 
+/* Laptops e desktops */
 .nav__cabecalho {
     display: flex;
     justify-content: space-between;
@@ -32,6 +33,12 @@ body {
 .item-lista {
     color: #ffff;
     text-decoration: none;
+    font-weight: 600;
+
+}
+
+.item-lista:hover {
+    color: #d5a021;
 
 }
 
@@ -46,8 +53,10 @@ body {
 .imagem_isabel {
     width: 400px;
     height: 500px;
-    padding: 20px 20px
+    padding: 20px 20px;
+    border-radius: 80px;
 }
+
 .sessao_secundaria {
     background-color: #ffffff;
     display: flex;
@@ -72,10 +81,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
 iframe {
     margin-top: 56px;
     border-radius: 25px;
 }
+
 footer {
     background-image: url(./img/menu-back.png);
     display: flex;
@@ -83,7 +94,60 @@ footer {
     height: 93px;
     justify-content: center;
 }
+
 footer p {
     color: #ffffff;
     padding: 20px;
+    font-weight: 600;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .sessao_principal > p {
+       font-size: 14px;
+       padding-top: 2em;
+    }
+
+    h1 {
+       font-size: 1.5em;
+    }
+
+   .imagem_isabel {
+       padding-top: 4em;
+       border-radius: 6em 6em;
+   }
+}
+
+/* Tablets menores */
+@media (max-width: 748px) {
+    .sessao_principal > p {
+        font-size: 14px;
+        padding-top: 2em;
+     }
+
+     h1 {
+        font-size: 1.5em;
+     }
+
+    .imagem_isabel {
+        padding-top: 4em;
+        border-radius: 6em 6em;
+    }
+}
+
+/* Smartphone, iphone modo retrato, smartphones 480x320 */
+@media (max-width: 480px) {
+    .sessao_principal > p {
+        font-size: 14px;
+        padding-top: 2em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .imagem_isabel {
+        padding-top: 4em;
+        border-radius: 6em 6em;
+    }
 }
