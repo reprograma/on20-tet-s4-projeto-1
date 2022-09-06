@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f7f5f8;
+    margin: 2px;
+}
+
+.cabecalho{
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    width: 100%;
+    height: 60px;
+}
+
+.img-responsivo{
+    max-width: 100%;
+    max-height: 40px;
+}
+
+.menu-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lists-navegacao{
+    font-size: 16px;
+    display: flex;
+}
+
+.lists-navegacao li{
+    margin: 0 16px;
+}
+
+.titulo{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(./img/banner-minha.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center;   
+}
+
+.nome-principal{
+    font-size:3em;
+    margin-top: 20px;
+    color: #fafafa;
+    background-color:#4b2967;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.informacao h2{
+    margin: 30px;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #4c246f53;
+}
+
+.foto-card{
+    width: 50%;
+}
+
+.card p{
+    margin-top: 15%;
+}
+
+.historia{
+    text-align: center;
+    font-size: 2rem;
+}
