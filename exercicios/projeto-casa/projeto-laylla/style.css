@@ -172,9 +172,14 @@ footer p {
         width: 100%;
         padding: 0px 27px;
     }
+    .item-lista {
+        padding-right: 3em;
+        font-size: 0.8em;
+    }
+   
     .sessao_principal {
-        margin-left: 6em;
-        margin-right: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
     .sessao_principal > p {
         font-size: 14px;
@@ -184,30 +189,30 @@ footer p {
     }
 
     h1 {
-        font-size: 1.3em;
-        padding-left: 2em;
+        font-size: 1em;
+        padding-left: 0.9em;
     }
 
     .imagem_isabel {
         padding-top: 1em;
         max-width: 14em;
         max-height: 16em;
-        padding-left: 2em;
+        padding-left: 5em;
     }
     .sessao_secundaria {
         font-size: 14px;
         padding-top: 1em;
         padding-right: 1em;
         padding-left: 2em;
-        margin-left: 6em;
-        margin-right: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
     .video {
         background-image: none;
         display: flex;
         border-radius: none;
         align-items: center;
-        padding-left: 3em;
+
     }
     footer {
         height: 90px;
@@ -215,7 +220,7 @@ footer p {
         padding: 0px 27px;
     }
     footer p {
-        padding: 18px;
-        font-weight: 200;
+        padding-right: 1.2em;
+        font-weight: 100;
     }
 }
