@@ -162,7 +162,6 @@ a {
      width: 100%;
 }
 
-
 /* info */
 
 .mais__info {
@@ -213,6 +212,7 @@ a {
     .container {
         max-width: 768px;
     }
+    
 }
 
 @media (max-width: 768px) {
