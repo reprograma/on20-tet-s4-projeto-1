@@ -1,0 +1,198 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 124px;
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 24px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logotipo {
+    max-width: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu > li > a {
+    color: white;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.imagem_dulce {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.conteudo_section {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    background-color: #ebebde;
+    border-radius: 10px;
+}
+
+.conteudo {
+    display: flex;
+    text-align: center;
+}
+
+.conteudo_texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1em;
+    color: #777764;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 1.875em;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.informacoes {
+    text-align: center;
+    padding: 5px;
+    background-color: #ebebde;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #777764;
+}
+
+.informacoes > ul > li > a {
+    color: #777764;
+}
+
+.informacoes > ul > li {
+    list-style-type: none;
+}
+
+.autora_projeto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ebebde;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777764;
+    border-radius: 20px;
+}
+
+.info_priscila {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.historia {
+   font-size: 1.5625em;
+   text-align: center;
+}
+
+.historia_section {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #d6d69f;
+    margin-top: 30px;
+    color: #777764;
+}
+
+.historia_section > p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+@media (max-width:801px) {
+    header {
+        height: auto;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .conteudo {
+        flex-wrap: wrap;
+        flex-direction: column
+    }
+
+    .conteudo_section {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .imagem_dulce {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .autora_projeto {
+        justify-content: space-evenly;
+    }
+
+    .info_priscila {
+        margin-left:0;
+    }
+}
+
+@media(min-width:480px) and (max-width:801px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:801px) and (max-width:940px) {
+    .imagem_dulce {
+        width: 300px;
+    }
+}
+
+@media(min-width:940px) and (max-width:1280px) {
+    .imagem_dulce {
+        width: 400px;
+    }
+}
+
+@media (max-width:420px)  {
+    body {
+        font-size: 14px;
+    }
+
+    .imagem_dulce {
+        width: 90%;
+        max-width: 100%;
+    }
+}
