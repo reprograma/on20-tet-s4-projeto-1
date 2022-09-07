@@ -10,7 +10,7 @@ body {
 .nav__cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 0 70px;
+    padding: 0 70px; 
     background-image: url(./img/menu-back.png);
     align-items: center;
     height: 93px;
@@ -53,7 +53,7 @@ body {
 .imagem_isabel {
     width: 400px;
     height: 500px;
-    padding: 20px 20px;
+    padding: 20px 10px;
     border-radius: 80px;
 }
 
@@ -104,34 +104,64 @@ footer p {
 /* Tablets */
 @media (max-width: 1024px) {
     .sessao_principal > p {
-       font-size: 14px;
-       padding-top: 2em;
+       font-size: 1em;
+       padding-top: 1em;
     }
 
     h1 {
        font-size: 1.5em;
     }
 
-   .imagem_isabel {
-       padding-top: 4em;
-       border-radius: 6em 6em;
+    .imagem_isabel {
+        width: 400px;
+        height: 500px;
+        padding: 20px 10px;
+        border-radius: 80px;
+    }
+   .sessao_secundaria > p {
+        padding-top: 0;
+        font-size: 1em;
+        margin-top: 1em;
    }
 }
 
 /* Tablets menores */
 @media (max-width: 748px) {
+    .nav__cabecalho {
+        height: 92px;
+    }
+
+    .imagem_logo {
+        width: 89px;
+        height: 110px;
+    }
+
+    .sessao_principal {
+        flex-direction: column 
+    }
+
     .sessao_principal > p {
         font-size: 14px;
         padding-top: 2em;
+        padding-right: 1em;
      }
+    .sessao_secundaria {
+        font-size: 14px;
+    }
 
      h1 {
         font-size: 1.5em;
      }
 
     .imagem_isabel {
-        padding-top: 4em;
-        border-radius: 6em 6em;
+        padding-top: 0.9em;
+        border-radius: 2em 3em 2em 3em;
+        max-width: 20em;
+        max-height: 20em;
+        padding-left: 9em;
+    }
+    .video {
+        background-size: 690px 487px;
     }
 }
 
