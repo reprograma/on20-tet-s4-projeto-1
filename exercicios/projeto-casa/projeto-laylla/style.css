@@ -102,7 +102,7 @@ footer p {
 }
 
 /* Tablets */
-@media (max-width: 1024px) {
+@media  (max-width: 1024px) {
     .sessao_principal > p {
        font-size: 1em;
        padding-top: 1em;
@@ -167,17 +167,55 @@ footer p {
 
 /* Smartphone, iphone modo retrato, smartphones 480x320 */
 @media (max-width: 480px) {
+    .nav__cabecalho {
+        height: 90px;
+        width: 100%;
+        padding: 0px 27px;
+    }
+    .sessao_principal {
+        margin-left: 6em;
+        margin-right: 3em;
+    }
     .sessao_principal > p {
         font-size: 14px;
-        padding-top: 2em;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.3em;
+        padding-left: 2em;
     }
 
     .imagem_isabel {
-        padding-top: 4em;
-        border-radius: 6em 6em;
+        padding-top: 1em;
+        max-width: 14em;
+        max-height: 16em;
+        padding-left: 2em;
+    }
+    .sessao_secundaria {
+        font-size: 14px;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 2em;
+        margin-left: 6em;
+        margin-right: 3em;
+    }
+    .video {
+        background-image: none;
+        display: flex;
+        border-radius: none;
+        align-items: center;
+        padding-left: 3em;
+    }
+    footer {
+        height: 90px;
+        width: 100%;
+        padding: 0px 27px;
+    }
+    footer p {
+        padding: 18px;
+        font-weight: 200;
     }
 }
