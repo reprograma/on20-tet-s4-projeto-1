@@ -70,7 +70,7 @@ a {
 .titulo {
     min-height: 80vh;
     width: 100%;
-    background-image: url(../img/bg-banner.png);
+    background-image: url(../img/banner.png);
     background-size: cover;
     display: flex;
     align-items: end;
@@ -202,5 +202,3 @@ a {
         max-width: 656px;
     }
 }
- 
-
