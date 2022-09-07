@@ -1,0 +1,267 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+}
+
+p {
+    padding: 2.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.historia,
+.info {
+    margin: 50px;
+    width: auto;
+}
+
+.lista__info,
+.paragrafo__info {
+    text-align: center;
+}
+
+
+/* seletores com mesmas propriedades */
+
+
+/* cabeçalho */
+.cabecalho {
+    background-color: #e22a2a;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 24px;
+    position: fixed;
+    width: 100%;
+    height: 124px;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    max-width: 100%;
+}
+
+/* cabecalho */
+
+.nav__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lista__nav {
+    font-size: 18px;
+    display: flex;
+}
+
+.lista__nav>li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../img/bg-banner.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.titulo__principal {
+    font-size: 3em;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e22a2a;
+    width: 100%;
+    text-align: center;
+}
+
+/* main */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.link {
+    color: #e22a2a;
+    text-decoration: underline;
+}
+
+/*  maravilhosa */
+.titulo__maravilhosa {
+    font-size: 36px;
+    text-align: center;
+    margin: 3em 0 3em auto;
+    color: #000000;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #f57d7d;
+}
+
+.maravilhosa .maravilhosa__img>img {
+    width: 35%;
+    border-radius: 16px;
+    float: left;
+    margin: 20px 50px 20px 20px;
+}
+
+.paragrafo__maravilhosa {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.citacao {
+    font-size: 20px;
+    text-align: center;
+    background-color: #e22a2a;
+    color: white;
+    width: auto;
+    height: 30px;
+    border: 2px solid #40215f;
+    border-radius: 1em 0 1em 0;
+    padding: .8em 0 .8em 0;
+}
+
+/* historia */
+
+.titulo__historia {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+.container-historia {
+    display: flex;
+}
+
+.imagem-historia {
+    width: 20em;
+}
+
+.container-trinta {
+    width: 30%;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.container-setenta {
+    width: 70%;
+    padding-top: 1em;
+}
+
+/* info */
+
+.mais__info {
+    background-color: #f57d7d;
+    padding: 20px;
+    border-radius: 0 30px;
+}
+
+.paragrafo__info {
+    font-size: 20px;
+    color: #000000;
+}
+
+.link-info {
+    color: #030303;
+}
+
+/* footer */
+
+.autora__container {
+    background-color: #e22a2a;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__img>img {
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.autora__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+    color: white;
+}
+
+.icones-sociais li {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: auto;
+    height: inherit;
+    line-height: 110px
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+  }
+
+.icones-sociais i:hover {
+    color: black;
+    font-size: 3rem;
+  }
+  
+  .icones-sociais i {
+    color: white;
+    font-size: 2rem;
+    ;
+  }
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 656px;
+    }
+}
+
+
+
+
+
