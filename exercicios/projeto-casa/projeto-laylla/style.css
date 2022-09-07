@@ -173,45 +173,46 @@ footer p {
         padding: 0px 27px;
     }
     .item-lista {
-        padding-right: 3em;
+        padding-right: 2em;
         font-size: 0.8em;
     }
    
     .sessao_principal {
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 5em;
+        margin-right: 1em;
     }
     .sessao_principal > p {
         font-size: 14px;
         padding-top: 1em;
-        padding-right: 1em;
+        padding-right: 2em;
         padding-left: 1em;
     }
 
     h1 {
         font-size: 1em;
-        padding-left: 0.9em;
+        padding-left: 3em;
     }
 
     .imagem_isabel {
         padding-top: 1em;
-        max-width: 14em;
-        max-height: 16em;
-        padding-left: 5em;
+        max-width: 13em;
+        max-height: 15em;
+        padding-left: 4em;
     }
     .sessao_secundaria {
         font-size: 14px;
         padding-top: 1em;
-        padding-right: 1em;
+        margin-left: 5em;
+        margin-right: 1em;
+        padding-right: 2em;
         padding-left: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
     }
     .video {
         background-image: none;
         display: flex;
         border-radius: none;
         align-items: center;
+        padding-left: 4em;
 
     }
     footer {
@@ -220,7 +221,7 @@ footer p {
         padding: 0px 27px;
     }
     footer p {
-        padding-right: 1.2em;
+        padding-right: 0.2em;
         font-weight: 100;
     }
 }
