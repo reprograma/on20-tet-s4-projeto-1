@@ -1,0 +1,347 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica,sans-serif;
+    color: #2c3333;
+}
+
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#f7f5f8;
+    margin: 2px;
+}
+
+.historia-marca,.info {
+    margin: 50px;
+    width: auto;
+}
+
+.lista__info, .paragrafo__info {
+    text-align:center;
+}
+
+
+/* header */
+.header {
+    background-color:#696464;
+    box-shadow: 0px 5px 5px rgba(156, 12, 212, 0.39);
+    padding-top:24px;
+    position: fixed; 
+    width: 100%;
+    height: 124px;
+}
+
+.nav-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lista-nav-header {
+    font-size: 18px;
+    display: flex; 
+}
+
+.lista-nav-header  > li {
+    margin: 0 16px;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-header {
+    max-width: 100%;
+}
+
+/*section*/
+
+.titulo-section {
+    min-height: 90vh;
+    width: 100%;
+    background-image: url(../img/Naya-Violeta-SPFWN35-foto-Carolina-Venturini-Senac-51.webp);
+    box-shadow: 0px 10px 10px rgba(156, 12, 212, 0.39);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center; 
+}
+
+.titulo-principal-section {
+    font-size:3em;
+    margin-top: 20px;
+    color: #1d1a1d;
+    background-color:#696464;
+    width: 100%;
+    text-align: center;
+}
+
+/* main */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.titulo-container {
+    font-size:36px;
+    text-align: center;
+    margin: 2em 0 2em auto;
+    color: rgba(155, 12, 212, 0.877);
+    box-shadow: 0px 2px 2px rgba(223, 199, 233, 0.39);
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(117, 110, 119, 0.144);
+    padding: 20px;
+}
+
+.maravilhosa .maravilhosa-img > img {
+    width: 35%;
+    border-radius: 16px;
+    float: left;
+    margin: 20px 50px 20px 20px;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px rgba(156, 12, 212, 0.39);
+}
+
+.paragrafo-maravilhosa {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.citacao {
+    font-size: 25px;
+    text-align: center;
+    background-color: #696464;;
+    color: white;
+    width: auto;
+    height: 20px;
+    border: 2px solid #421e66;
+    border-radius:  1em 1em 1em 1em;
+    padding: .8em 0 .8em 0;
+}
+
+/* historia da marca */
+
+.titulo-historia-marca {
+    font-size: 2.2em;
+    color: #4b2967;
+}
+
+.paragrafo-historia-marca {
+    font-size: 20px;
+}
+
+.a-marca{
+    max-width: 50%;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(117, 110, 119, 0.144);
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(156, 12, 212, 0.39);
+}
+
+/* info */
+
+.mais-info {
+    background-color:#696464;
+    padding: 20px;
+    border-radius: 0 30px;
+    text-align: center;
+}
+
+.paragrafo-info {
+    font-size: 20px;
+    color:#fbfafc;
+    text-align: center;
+}
+
+.link-info {
+    color: #837e7a;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	background-color: #696464;
+	padding: 40px 0;
+}
+
+.footer-imagem{
+    max-width: 40px;
+}
+
+.copyright {
+	color: #2c3032;
+	font-size: 15px bold;
+	margin: 20px 0 0;
+}
+
+/*sectiom-desfile*/
+
+#desfile-atividades {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+.desfile-container {
+    background-color: #b699b7;
+    height: 260px;
+    display: flex;
+    justify-content:center;
+}
+
+.desfile-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+}
+
+.servicos-desfile {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid #f9f7f7;
+	border-radius: 10px;
+	
+}
+
+#desfile-atividades p,  h3 {
+   color: #dfeef8;
+}
+
+#desfile-atividades li:hover {
+	border-color:#808181;
+
+}
+
+#desfile-atividades li:hover h3 {
+	font-size: 34px;
+}
+
+.servicos-desfile {
+	color: black;
+}
+
+#desfile-atividades > h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.descricao-desfile {
+	font-size: 18px;
+}
+
+.desfile-imagem2{
+    max-width: 38%;
+}
+
+.desfile-imagem1{
+    max-width: 38%;
+}
+
+.desfile-imagem3{
+    max-width: 42%;
+}
+
+.section-desfile {
+	text-align: center;
+	background-color: #696464;
+	padding: 40px 0;
+}
+
+/*responsividade Mobile*/
+
+/* media query */
+@media (min-width: 480px) and (max-width:600px ) { 
+    .container {
+        max-width: 768px;
+    }
+
+    .header {
+        background-color:#696464;
+        box-shadow: 0px 5px 5px rgba(156, 12, 212, 0.39);
+        padding-top:14px;
+        position: fixed; 
+        width: 100%;
+        height: 100px;
+    }
+    .img-header {
+        max-width: 100%;
+    }
+    .nav-header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .lista-nav-header {
+        font-size: 18px;
+        display: 20px; 
+    }
+    
+    .lista-nav-header  > li {
+        margin: 0 16px;
+    }
+
+
+    .paragrafo-maravilhosa {
+        width: 100%;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .citacao {
+        font-size: 15px;
+        text-align: center;
+        width: auto;
+        height: 10px;
+        padding: .8em 0 .8em 0;
+    }
+    .titulo-historia-marca {
+        font-size: 1.2em;
+    
+    }
+    .titulo-container {
+        font-size:20px;
+    }
+    .a-marca{
+        max-width: 100%;
+        display: flex;
+        max-width:50%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+/*responsividade tablet*/
+@media (min-width: 601px) and (max-width: 1040px) {
+    .container {
+        max-width: 656px;
+    }
+}
