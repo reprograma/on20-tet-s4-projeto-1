@@ -126,7 +126,7 @@ footer p {
 }
 
 /* Tablets menores */
-@media (max-width: 748px) {
+@media (max-width: 600px) {
     .nav__cabecalho {
         height: 92px;
     }
@@ -158,11 +158,16 @@ footer p {
         border-radius: 2em 3em 2em 3em;
         max-width: 20em;
         max-height: 20em;
-        padding-left: 9em;
+        padding-left: 5em;
     }
     .video {
-        background-size: 690px 487px;
+        background-image: none;
+        align-items: center;
     }
+    footer p {
+        padding: 16px;
+        font-weight: 100;
+        padding-right: 0em;
 }
 
 /* Smartphone, iphone modo retrato, smartphones 480x320 */
