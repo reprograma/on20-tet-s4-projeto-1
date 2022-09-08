@@ -1,0 +1,224 @@
+.tudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: #c74219;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 104px;
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    padding-bottom: 9%;
+
+  }
+
+  .navbar__nav {
+    font-size: 18px;
+    color: #fff;
+    display: flex;}
+
+    .navbar__nav > li {
+        margin: 0 16px;
+        font-weight: bold;
+        text-decoration: none;
+text-align: right;
+
+      }
+  
+  ul {
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+  .ul {
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;}
+
+    .navbar__logo {
+        max-width: 200px;
+      }
+      * {
+        box-sizing: border-box;
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        margin: 0;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .navbar__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+      }
+      * {
+        box-sizing: border-box;
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        margin: 0;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .img-responsive {
+        max-width: 100%;
+    }
+    
+
+    .titulo{
+        background-image: url(./img/banner.jpg);
+        padding-top: 50%;
+        block-size: 5%;
+       
+        
+
+        
+        
+    }
+     h1{
+        text-align: center;
+        color: #c74219;
+        font-size: xx-large; 
+        padding: 0%;
+     }
+    h2{
+        padding: 3%;
+        color: #c74219;
+        font-size: x-large;
+    }
+        h3{
+            color: #c74219;
+            padding: 2%;
+            font-size: x-large;
+            text-align: center;
+
+        }
+    .Biografia{
+        text-align: center;
+        margin: 10%;
+    }
+    .obras{
+        text-align: center;
+        margin: 10%;
+        
+    }
+    .auto{
+        float: inline-end;
+        margin: auto;
+    }
+    .citaçao {
+        font-size: 2.20rem;
+        border: 0.25rem solid #20b6b6;
+        padding: 2.25rem;
+        line-height: 3.125rem;
+        margin: 3rem auto;
+        text-align: center;
+      }
+   
+    .pinturas1 {
+        display:ruby-base;
+        padding: 3%;
+        margin: 3%;
+
+    }
+    .pinturas2{
+        display: ruby-base;
+        padding: 3%;
+        margin: 3%;
+    }
+    .autora{
+        background-color: #c74219;
+         height: 15rem;
+        display: flex;
+        justify-content: center;
+
+    }
+    .botao{
+        display: block;
+        text-align: center;
+        margin: 6rem;
+      }
+
+    .btn-todas {
+  background-color:  #c74219;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border:  #c74219;
+  width: 13vw;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+    .autora__info {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-left: 2.25rem;
+        color: #fff;
+        padding-bottom: 1.5rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        
+    }
+    .img-responsive{
+        border-radius: 100%;
+        max-width: 240px;
+        margin: 20px 0;
+      }
+
+    .rodape {
+        background-color: #323534;
+        color: white;
+
+    }
+    .rodapé_principal {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .rodape__principal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      ul {
+        padding: 0;
+      }
+      .rodape__cc {
+        font-size: 14px;
+        text-align: center;
+      }
+
+      @media (max-width: 1024px) {
+       .tudo {
+            max-width: 768px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .tudo {
+            max-width: 656px;
+        }
+    }
+
+      
