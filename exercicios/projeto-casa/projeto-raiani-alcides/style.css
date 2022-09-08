@@ -236,7 +236,7 @@ main{
     padding: 10px;
   }
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 600px) {
     .resumo {
         flex-wrap: wrap;
         height: 100%;
@@ -259,5 +259,11 @@ main{
     }
     #header-principal h1 {
         margin-bottom: 17px;
+    }
+    .lists-navegacao, .rodape__principal{
+        flex-wrap: wrap;
+    }
+    .menu-inicial {
+        width: 100%;
     }
   }
