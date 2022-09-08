@@ -1,0 +1,193 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b936a8;
+}
+
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#f7f5f8;
+    margin: 2px;
+}
+
+.historia,.info {
+    margin: 50px;
+    width: auto;
+}
+
+.lista__info, .paragrafo__info {
+    text-align:center;
+}
+
+
+/* seletores com mesmas propriedades */
+
+
+/* cabeçalho */
+.cabecalho {
+    background-color:#b936a8;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top:24px;
+    position: fixed; 
+    width: 45%;
+    height: 115px;
+}
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    max-width: 100%;
+}
+
+/* cabecalho */
+
+.nav__cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lista__nav {
+    font-size: 18px;
+    display: flex; 
+}
+
+.lista__nav > li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../projeto-amanda-pacheco/img/aaaaa.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center;   
+}
+
+.titulo__principal {
+    font-size:3em;
+    margin-top: 20px;
+    color: #fafafa;
+    background-color:#b936a8;
+    width: 100%;
+    text-align: center;
+}
+
+/* main */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/*  maravilhosa */
+.titulo__maravilhosa {
+    font-size:36px;
+    text-align: center;
+    margin: 2em 0 2em auto;
+    color: #8e9953;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 954px;
+    margin: 0 auto;
+    background-color: #b936a8;
+    color: #fafafa
+}
+
+.maravilhosa .maravilhosa__img > img {
+    width: 35%;
+    border-radius: 14px;
+    float: left;
+    margin: 20px 50px 20px 10px;
+}
+
+.paragrafo__maravilhosa {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* historia */
+
+.titulo__historia {
+    font-size: 2.2em;
+    color: #b936a8;
+}
+
+.paragrafo__historia {
+    font-size: 20px;
+}
+
+.paragrafo__historia--ultimo {
+    font-size: 20px;
+    color: #41b43;
+}
+
+/* info */
+
+.mais__info {
+    background-color:#b936a8;
+    padding: 20px;
+    border-radius: 0 30px;
+}
+.paragrafo__info {
+    font-size: 20px;
+    color:#fbfafc;
+}
+
+.link-info {
+    color: #493d1c;
+}
+
+/* footer */
+
+.autora__container {
+    background-color: #493d1c;
+    height: 260px;
+    display: flex;
+    justify-content:center;
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__img > img {
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.autora__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+}
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 656px;
+    }
+}
