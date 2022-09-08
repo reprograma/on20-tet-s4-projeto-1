@@ -118,6 +118,7 @@ main{
 
 #apresentacao{
     background-color: #4c246f53;
+    margin: 12px;
 }
 
 .resumo {
@@ -156,7 +157,7 @@ main{
 #projetos p{
     background-color: #4c246f53;
     padding: 50px;
-
+    overflow: auto;
 }
 
 #projetos span{
@@ -233,4 +234,30 @@ main{
     opacity: 0.5;
     text-align: center;
     padding: 10px;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .resumo {
+        flex-wrap: wrap;
+        height: 100%;
+        text-align: center;
+    }
+
+    .resumo img {
+        order: -1;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .nav-principal {
+        width: 100%;
+        margin-bottom: -131px;
+    }
+    .nav-principal li {
+        margin: 24px;
+    }
+    #header-principal h1 {
+        margin-bottom: 17px;
+    }
   }
