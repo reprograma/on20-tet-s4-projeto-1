@@ -236,13 +236,14 @@ CSS é estudo, erro, estudo, acerto e erro de novo.
 
 ### Responsividade
 
-O layout responsivo trás fluidez para as nossas páginas, possibilitando o uso de um mesmo layout para diferentes tamanhos de tela como: **celular, table, desktop, laptop e televisão*.
+O layout responsivo traz fluidez para as nossas páginas, possibilitando  o uso do mesmo layout  de acordo com o tamanho da tela.
+: **celular, table, desktop, laptop e televisão*.
 
 As alterações no CSS acontecem com  o uso da técnica **media query**. Nesta técnica incluimos os break points - os pontos de quebra dos tamanhos das telas. 
 
 #### Mobile first
 
-A responsividade tem o conceito  **mobile first**, que orienta a estilização da página primeiro para o formato mobile(celular). Isso facilita o acesso de diversos usuários que tem o celular como principal meio de acesso à internet.
+A responsividade tem o conceito  **mobile first**, que orienta a estilização da página primeiro para o formato mobile(celular). Isso facilita o acesso de diversos usuários que têm o celular como principal meio de acesso à internet.
 
 #### Media query
 
