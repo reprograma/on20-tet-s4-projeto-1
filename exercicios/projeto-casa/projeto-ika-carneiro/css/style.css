@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica,sans-serif;
+    color: #674582;
+}
+
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#f7f5f8;
+    margin: 2px;
+}
+
+.lista__info, .paragrafo__info {
+    text-align:center;
+}
+
+
+.cabecalho {
+    background-image: linear-gradient( to right, rgb(243, 142, 230), rgb(255, 245, 254), rgb(136, 207, 255));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    position: fixed; 
+    width: 100%;
+    height: 70px;
+}
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    max-width: 100%;
+}
+
+/* cabecalho */
+
+.nav__cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto
+}
+
+.item-lista {
+    color: black;
+    
+}
+
+.lista__nav {
+    font-size: 15px;
+    display: flex; 
+}
+
+.lista__nav > li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../img/bg-banner.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center;   
+}
+
+.titulo__principal {
+    font-size:3em;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo__maravilhosa {
+    font-size:36px;
+    text-align: center;
+    margin: .0em 0 2em 2em;
+    color: #000000;
+    
+}
+
+.container{
+    background-color: rgb(255, 187, 246);
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 187, 246);
+}
+
+.maravilhosa .maravilhosa__img > img {
+    width: 35%;
+    border-radius: 16px;
+    float: left;
+    margin: 20px 50px 20px 20px;
+}
+
+.paragrafo__maravilhosa {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+    color:black
+}
+
+
+.mais__info {
+    background-color:rgb(136, 207, 255);
+    padding: 1px;
+    border-radius: 1000px
+}
+.paragrafo__info {
+    font-size: 20px;
+    color:#000000;
+}
+
+.link-info {
+    color: #000000;
+}
+
+/* footer */
+
+.autora__container {
+    background-color: #000000;
+    height: 260px;
+    display: flex;
+    justify-content:center;
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__img > img {
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.autora__info {
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+}
+.selfies{
+    width: 15%;
+    height: 20%
+}
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 656px;
+    }
+}
+ 
+
