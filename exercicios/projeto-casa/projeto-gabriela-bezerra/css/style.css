@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif; font-family: 'Playfair Display', serif;
+}
+
+
+body {
+    text-align: center;
+    background-color: #d8f7ef;
+    
+
+}
+
+.cabecalho {
+    padding: 30px;
+    width: 100%;
+    background-image: linear-gradient(#F2F0F2, #04BF45, #038C33, #025920, #400601, #F2F0F2, #400601, #025920, #038C33, #04BF45, #F2F0F2);
+
+
+}
+
+.navegacao {
+    list-style: none;
+        
+}
+
+.oxossi {
+    width: 30vw;
+    border-radius: 20px;
+        
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    font-size: 1.5rem;
+    padding: 10px;
+    
+        
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    /* font-weight: bold; */
+    
+        
+}
+
+.infomacoes-stella {
+    /* margin-bottom: 60px; */
+    /* margin: 10px; */
+    /* width: 100%; */
+    padding: 60px;
+    margin: 0;
+    /* box-sizing: border-box; */
+    display: flex;
+    text-align: justify;
+    color: #400601;
+    font-size: 1.7em;
+    
+
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    width: 180%;
+    height: 124px;
+    /* border-radius: 10px; */
+    /* letter-spacing: 0.8px; */
+    /* line-height: 28px; */
+    /* font-weight: 300; */
+    /* font-size: 19px; */
+    /* margin-bottom: 10px; */
+    /* word-wrap: break-word; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+
+.categoria-img > img {
+    position: fixed;
+    max-width: 540px;
+    border-radius: 30px;
+    margin: 0;
+    /* height: 250px; */
+        
+}
+
+h1 {
+    padding: 8%;
+    text-align: center;
+        
+}
+
+.livro-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 45%;
+    border-radius: 100px;
+    margin-left: 250px;
+    
+        
+}
+
+.sincretismo {
+    color: black;
+    
+
+}
+
+.citacao {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 45%;
+    border-radius: 100px;
+    margin-left: 250px;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.video {
+    padding: 30px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.video-citacao {
+    align-self: center;
+    justify-content: center;
+    margin-left: 360px;
+    font-size: 0.7em;
+}
+
+
+
+h2 {   
+    text-align: center;
+    margin-left: -600px;
+    font-size: 2em;
+    color: #400601;
+}
+
+.morte-sucessao {
+    padding: 20px;
+    margin-left: 372px;
+    /* box-sizing: border-box; */
+    display: flex;
+    text-align: justify;
+    color: #400601;
+    font-size: 1.3em;
+    
+    
+}
+ .premios {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 752px;
+      
+
+ }
+
+ .lista-premio {
+
+ }
+
+ .livros {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 752px;
+ }
+
+ .referencias {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 752px;
+ }
+
+ .sites {
+    color: #400601;
+ }
+
+.footer {
+    background: #400601;
+    
+}
+
+.autora-img > img {
+    /* border-radius: 40%; */
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+
+}
+
+.autora-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 768px) {
+    .categoria {
+        max-width: 656px;
+    }
+
+    .infomacoes-stella {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem; 
+        /* padding: 10px; */
+        /* margin: 20px 50px 50px 50px;        */
+        border-radius: 50%;
+    
+    }
+
+    .categoria-img > img {
+        position: static;
+        max-width: 250px;
+        border-radius: 30px;
+        margin: 0;
+        display: flex;
+               
+    }
+
+    .container {
+        padding: 7px;
+
+    }
+
+    .livro-container {
+        display: flex;
+        margin-left: 30px;
+        width: 70%;
+        border-radius: 50px;
+
+    }
+
+    .citacao {
+        margin-left: 200%;
+        font-size: 0.7em;
+        font-weight: bold;
+        margin: 0;
+        padding: 5px;
+        color: #400601;
+    }
+
+    .video {
+        margin-left: 15px;
+
+    }
+
+    .video-citacao {
+        margin-left: 10%;
+        margin: 0;
+        color: #400601;
+    }
+
+    .morte-sucessao {
+       display: flex;
+       /* flex-direction: column; */
+       margin-left: -5px;
+       font-size: 1.2em;
+       color: #400601;
+    }
+
+    .premios, .livros, .referencias {
+        flex-direction: column;
+       margin-left: -5px;
+       padding: -20px;
+       font-size: 1em;
+       color: #400601;
+    }
+
+    h2 {
+        margin-left: -10px;
+        color: #400601;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .categoria {
+        max-width: 769px;
+    }
+    
+    /* h1 {
+        text-align: start;
+        padding: 50px;
+    } */
+
+    .informacoes-stella {
+        /* display: inline-flex;
+        flex-direction: column;
+        font-size: 1em;
+        border-radius: -550%;
+        right: 50%;
+        padding: 0; */
+        
+        
+    }
+
+    .categoria-img > img {
+        position: static;
+        max-width: 250px;
+
+    }
+
+    /* p {
+        display: flex;
+        flex-direction: column;
+        max-width: 150%;
+    } */
+
+    .livro-container {
+        display: flex;
+        flex-direction: column;
+        margin-right: 110%;
+        border-radius: 5%;
+        width: 60%;
+
+    }
+
+    .citacao {
+        display: flex;
+        flex-direction: column;
+        margin-right: 110%;
+        padding: 5%;
+        
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -120px;
+
+    }
+
+    .video-citacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -150px;
+    }
+
+    h2 {
+        margin-left: 120px;
+    }
+
+    .morte-sucessao, .premios, .livros, .referencias {
+        display: flex;
+        flex-direction: column;
+        margin: -10px;
+
+    }
+}
+
