@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica,sans-serif;
+    color: #674582;
+    text-align: center;
+}
+
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#f7f5f8;
+    margin: 2px;
+}
+
+.historia,.info {
+    margin: 50px;
+    width: auto;
+}
+
+.lista__info, .paragrafo__info {
+    text-align:center;
+}
+
+
+/* seletores com mesmas propriedades */
+
+
+/* cabeçalho */
+.cabecalho {
+    background-color: #986CC5;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top:24px;
+    position: fixed; 
+    width: 100%;
+    height: 124px;
+}
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    max-width: 100%;
+}
+
+/* cabecalho */
+
+.nav__cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lista__nav {
+    font-size: 18px;
+    display: flex; 
+}
+
+.lista__nav > li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../img/Cópia\ de\ Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center;   
+}
+
+.titulo__principal {
+    font-size:3em;
+    margin-top: 20px;
+    color: #fafafa;
+    background-color: #986CC5;
+    width: 100%;
+    text-align: center;
+}
+
+/* main */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/*  maravilhosa */
+.titulo__maravilhosa {
+    font-size:36px;
+    text-align: center;
+    margin: 2em 0 2em auto;
+    color: white;;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 954px;
+    margin: 0 auto;
+    background-color: #986CC5;
+    color: white;
+    border-radius:  1em;
+    padding: .8em 1em .8em 2em;
+}
+
+.maravilhosa .maravilhosa__img > img {
+    width: 35%;
+    border-radius: 16px;
+    float: left;
+    padding: 1rem;
+}
+
+.paragrafo__maravilhosa {
+    width: 100%;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+
+/* historia */
+.historia{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.titulo__historia {
+    font-size: 2.2em;
+    color: rgb(0, 0, 0);
+}
+
+.paragrafo__historia {
+    font-size: 20px;
+}
+
+/* info */
+
+.mais__info {
+    background-color: #986CC5;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    width: 35rem;
+    margin-left: 20rem;
+}
+.paragrafo__info {
+    font-size: 20px;
+    color:#fbfafc;
+    
+}
+.desempenhos{
+    display: flex;
+}
+.desempenho{
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 10rem;
+    color: #000000;
+    align-items: center;
+}
+.ano{
+    background-color: #c650ddc4;
+    border-radius: 30px 30px 0px 0px;
+    margin: 5px;
+}
+.cargo{
+    background-color: #c650ddc4;
+    margin: 5px;
+}
+.votos{
+    background-color: #c650ddc4;
+    margin: 5px;
+}
+.partido{
+    background-color: #c650ddc4;
+    margin: 5px;
+}
+.resultado{
+    background-color: #c650ddc4;
+    margin: 5px;
+}
+
+/* footer */
+
+.autora__container {
+    background-color: white;
+    height: 210px;
+    display: flex;
+    justify-content:center;
+    color: rgb(50, 94, 135);
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__img > img {
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.autora__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+    color: #E88298;
+}
+.img-autora{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 656px;
+    }
+}
