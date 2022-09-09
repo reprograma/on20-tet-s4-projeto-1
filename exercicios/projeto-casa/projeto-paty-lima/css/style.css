@@ -3,7 +3,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Montserrat", Arial, Helvetica,sans-serif;
-    color: #674582;
+    color: #e2e2e2;
+    background-image: linear-gradient(to right, rgb(70, 91, 124), rgb(101, 76, 76), rgb(65, 65, 107));
 }
 
 ul{
@@ -12,30 +13,32 @@ ul{
 
 li {
     list-style: none;
+    
 }
 
 a {
     text-decoration: none;
-    color:#f7f5f8;
-    margin: 2px;
+    font-size: 25px;
+    
+    text-align: center;
+    color:#ece7ef;
+    
+    
 }
 
-.historia,.info {
-    margin: 50px;
-    width: auto;
-}
 
 .lista__info, .paragrafo__info {
     text-align:center;
 }
 
 
-/* seletores com mesmas propriedades */
+
 
 
 /* cabeçalho */
 .cabecalho {
-    background-color:#674582;
+    
+    background-image: linear-gradient(to right, rgb(70, 91, 124), rgb(101, 76, 76), rgb(65, 65, 107));
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     padding-top:24px;
     position: fixed; 
@@ -44,8 +47,15 @@ a {
 }
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 
-.img-responsive {
-    max-width: 100%;
+.img-responsive img {
+   width: 100%;
+    
+    
+}
+
+.foto-capa img{
+    
+    background-image: url(../img/Foto_da_Camila_Farani.jpg);
 }
 
 /* cabecalho */
@@ -59,7 +69,8 @@ a {
 }
 
 .lista__nav {
-    font-size: 18px;
+    
+    font-size: 20px;
     display: flex; 
 }
 
@@ -68,73 +79,90 @@ a {
 }
 
 .titulo {
-    min-height: 80vh;
+    min-height: 92vh;
     width: 100%;
-    background-image: url(../img/bg-banner.png);
+    
     background-size: cover;
     display: flex;
     align-items: end;
     justify-content:center;   
 }
 
-.titulo__principal {
-    font-size:3em;
-    margin-top: 20px;
-    color: #fafafa;
-    background-color:#4b2967;
-    width: 100%;
-    text-align: center;
-}
+
+
+
 
 /* main */
 .container {
     max-width: 1260px;
-    margin: 0 auto;
+    margin: 15em;
+    margin-top: 3em;
+    
+    
 }
 
 /*  maravilhosa */
 .titulo__maravilhosa {
-    font-size:36px;
+    
+    font-size:45px;
     text-align: center;
     margin: 2em 0 2em auto;
-    color: #d35e0a;
+    color: #e5d1bc;
 }
 
 .maravilhosa {
     display: flex;
-    max-width: 954px;
-    margin: 0 auto;
-    background-color: #4c246f53;
+    max-width: 980px;
+    margin: 5 auto;
+    padding: 2em 2em 2em 2em;
+    background-image: linear-gradient(to right, rgb(194, 208, 229), rgb(145, 84, 84), rgb(194, 108, 37));
 }
 
 .maravilhosa .maravilhosa__img > img {
     width: 35%;
-    border-radius: 16px;
+    border-radius: 12px;
     float: left;
-    margin: 20px 50px 20px 20px;
+    margin: 20px 40px 20px 20px;
+   
 }
 
 .paragrafo__maravilhosa {
     width: 100%;
-    font-size: 25px;
+    font-size: 22px;
     text-align: justify;
+    
 }
 
-.citacao {
-    font-size: 25px;
-    text-align: center;
-    background-color: #d35e0a;
-    color: white;
-    width: auto;
-    height: 30px;
-    border: 2px solid #694290;
-    border-radius:  1em 0 1em 0;
-    padding: .8em 0 .8em 0;
+
+        
+
+
+.slider{
+    
+    
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    
+    display: flex;
 }
+
+    .slider img{
+        border-radius: .50em;
+        margin: 0;
+    }
+
+
+
+
+
+
 
 /* historia */
 
-.titulo__historia {
+/* .titulo__historia {
     font-size: 2.2em;
     color: #4b2967;
 }
@@ -146,28 +174,34 @@ a {
 .paragrafo__historia--ultimo {
     font-size: 20px;
     color: #d35e0a;
-}
+} */
 
 /* info */
 
 .mais__info {
-    background-color:#4b2967;
-    padding: 20px;
+    margin-top: 5em;
+    background-color:#e6d0bd;
+    padding: 28px;
     border-radius: 0 30px;
 }
 .paragrafo__info {
+    font-style: italic;
     font-size: 20px;
-    color:#fbfafc;
+    color:#db6747;
 }
 
+
 .link-info {
-    color: #eeceb6;
+    font-style: italic;
+    font-size: 23px;
+    color: #88402c;
 }
 
 /* footer */
 
 .autora__container {
-    background-color: #b699b7;
+    background-image: linear-gradient(to right, rgb(201, 194, 190), rgb(248, 109, 109), rgb(226, 226, 247));
+    margin-top: em;
     height: 260px;
     display: flex;
     justify-content:center;
@@ -179,7 +213,8 @@ a {
 
 .autora__img > img {
     max-width: 240px;
-    border-radius: 30px;
+    border-radius: 50%;
+    
     margin: 20px 0;
 }
 
@@ -187,7 +222,10 @@ a {
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: 36px;
+    margin-left: 80px;
+    font-size: x-large;
+    text-align: justify;
+    margin: 1em;
 }
 
 /* media query */
@@ -195,12 +233,24 @@ a {
     .container {
         max-width: 768px;
     }
+    
+
+  
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 656px;
     }
+   
 }
- 
 
+@media (max-width: 480px) {
+    .container {
+        max-width: 356px;
+    }
+
+ 
+    
+    
+}
