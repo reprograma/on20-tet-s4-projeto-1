@@ -121,10 +121,10 @@ section .modulo p {
 }
 
  @media all and (max-width: 820px){
-   section .modulo h2{
-      font-size: 32px;
+   section .modulo h1 h2{
+      font-size: 30px;
    }
-   .modulo h2, p{
+   .modulo h1,h2, p{
       padding: 0 8px;
    }
 
@@ -134,7 +134,7 @@ section .modulo p {
    }
 
    section.modulo .parallax h1{
-      font-size: 36px;
+      font-size: 30px;
    }
  }
 
