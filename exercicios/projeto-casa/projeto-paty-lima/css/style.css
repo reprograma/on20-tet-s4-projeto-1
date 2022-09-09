@@ -3,7 +3,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Montserrat", Arial, Helvetica,sans-serif;
-    color: #ffffff;
+    color: #e2e2e2;
+    background-image: linear-gradient(to right, rgb(70, 91, 124), rgb(101, 76, 76), rgb(65, 65, 107));
 }
 
 ul{
@@ -12,13 +13,17 @@ ul{
 
 li {
     list-style: none;
+    
 }
 
 a {
-   
     text-decoration: none;
+    font-size: 25px;
+    
+    text-align: center;
     color:#ece7ef;
-    margin: 2px;
+    
+    
 }
 
 
@@ -33,7 +38,7 @@ a {
 /* cabeçalho */
 .cabecalho {
     
-    background-color:#d17600;
+    background-image: linear-gradient(to right, rgb(70, 91, 124), rgb(101, 76, 76), rgb(65, 65, 107));
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     padding-top:24px;
     position: fixed; 
@@ -64,7 +69,8 @@ a {
 }
 
 .lista__nav {
-    font-size: 23px;
+    
+    font-size: 20px;
     display: flex; 
 }
 
@@ -89,17 +95,19 @@ a {
 /* main */
 .container {
     max-width: 1260px;
-    margin: 0 auto;
+    margin: 15em;
+    margin-top: 3em;
     
     
 }
 
 /*  maravilhosa */
 .titulo__maravilhosa {
-    font-size:35px;
+    
+    font-size:45px;
     text-align: center;
     margin: 2em 0 2em auto;
-    color: #8a4500;
+    color: #e5d1bc;
 }
 
 .maravilhosa {
@@ -107,7 +115,7 @@ a {
     max-width: 980px;
     margin: 5 auto;
     padding: 2em 2em 2em 2em;
-    background-color: #8a4500;
+    background-image: linear-gradient(to right, rgb(194, 208, 229), rgb(145, 84, 84), rgb(194, 108, 37));
 }
 
 .maravilhosa .maravilhosa__img > img {
@@ -130,7 +138,7 @@ a {
 
 
 .slider{
-    margin: 0; padding: 0;
+    
     
     height: 293px;
     width: 600px;
@@ -140,6 +148,12 @@ a {
     
     display: flex;
 }
+
+    .slider img{
+        border-radius: .50em;
+        margin: 0;
+    }
+
 
 
 
@@ -165,24 +179,29 @@ a {
 /* info */
 
 .mais__info {
+    margin-top: 5em;
     background-color:#e6d0bd;
-    padding: 20px;
+    padding: 28px;
     border-radius: 0 30px;
 }
 .paragrafo__info {
+    font-style: italic;
     font-size: 20px;
-    color:#ca6245;
+    color:#db6747;
 }
 
+
 .link-info {
-    color: #ca6245;
+    font-style: italic;
+    font-size: 23px;
+    color: #88402c;
 }
 
 /* footer */
 
 .autora__container {
-    background-color: #ee8e80;
-    margin-top: 5em;
+    background-image: linear-gradient(to right, rgb(201, 194, 190), rgb(248, 109, 109), rgb(226, 226, 247));
+    margin-top: em;
     height: 260px;
     display: flex;
     justify-content:center;
@@ -194,7 +213,8 @@ a {
 
 .autora__img > img {
     max-width: 240px;
-    border-radius: 15px;
+    border-radius: 50%;
+    
     margin: 20px 0;
 }
 
@@ -202,7 +222,10 @@ a {
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-left: 36px;
+    margin-left: 80px;
+    font-size: x-large;
+    text-align: justify;
+    margin: 1em;
 }
 
 /* media query */
