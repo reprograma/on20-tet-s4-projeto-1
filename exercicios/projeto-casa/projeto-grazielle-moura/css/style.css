@@ -1,0 +1,224 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica,sans-serif;
+    color:black;
+    background-color: white;
+}
+
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(247, 65, 183);
+    margin: 2px;
+}
+
+.historia,.info {
+    margin: 50px;
+    width: auto;
+}
+
+.lista__info, .paragrafo__info {
+    text-align:center;
+}
+
+
+/* seletores com mesmas propriedades */
+
+
+/* cabeçalho */
+.cabecalho {
+    background-color:white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding-top:24px;
+    position: fixed; 
+    width: 100%;
+    height: 124px;
+}
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
+.img-responsive {
+    max-width: 120px;
+}
+
+/* cabecalho */
+
+.nav__cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lista__nav {
+    font-size: 18px;
+    display: flex; 
+}
+
+.lista__nav > li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../img/marta\ vieira.png);
+    background-size: 100% auto;
+    background-position: center bottom;
+    display: flex;
+    align-items: end;
+    justify-content:center; 
+    padding-top: 124px;
+    background-repeat: no-repeat;
+
+}
+
+.titulo__principal {
+    font-size:3em;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* main */
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/*  maravilhosa */
+.titulo__maravilhosa {
+    font: size 20px;
+    text-align: center;
+    margin: 2em 0 2em auto;
+    color: rgb(247, 65, 183);
+}
+.banner-principal {
+    width: 100%;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 954px;
+    margin: 0 auto;
+
+}
+
+.maravilhosa .maravilhosa__img > img {
+    width: 35%;
+    border-radius: 16px;
+    float: left;
+    margin: 20px 50px 20px 20px;
+
+    
+}
+
+.paragrafo__maravilhosa {
+    width: 100%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.citacao {
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    width: auto;
+    height: auto;
+    border: 5px solid rgb(244, 244, 11);
+    border-radius:  1em 0 1em 0;
+    padding: 1em 0 1em 0;
+}
+
+/* historia */
+
+.titulo__historia {
+    font-size: 20px;
+    color: rgb(247, 65, 183);
+}
+
+.paragrafo__historia {
+    font-size: 15px;
+}
+
+.paragrafo__historia--ultimo {
+    font-size: 15px;
+    color: black;
+}
+.banner-principal{
+    align-content: center;
+
+}
+
+.banner-principal img {
+     width: 100%;
+}
+
+/* info */
+
+.mais__info {
+    background-color:black;
+    padding: 20px;
+    border-radius: 0 30px;
+    border: 5px solid rgb(244, 244, 11);
+
+}
+.paragrafo__info {
+    font-size: 20px;
+    color:#fbfafc;
+}
+
+.link-info {
+    color: white;
+}
+
+/* footer */
+
+.autora__container {
+    background-color: white;
+    height: 260px;
+    display: flex;
+    justify-content:center;
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__img > img {
+    max-width: 240px;
+    border-radius: 30px;
+    margin: 20px 0;
+
+}
+
+.autora__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+}
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
