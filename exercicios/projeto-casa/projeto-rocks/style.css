@@ -1,0 +1,163 @@
+body {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+ul{
+    padding:0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    margin: 2px;
+}
+
+/* /cabeçalho */
+.cabecalho{
+    background-color:#deaf90;
+    opacity: 90%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    padding-top:9px;
+    position: fixed; 
+    width: 100%;
+    height: 90px;
+}
+.img-logo {
+    max-width: 100%;
+    left: 15rem;
+}
+.lista--nav {
+    font-size: 18px;
+    display: flex; 
+}
+.lista--nav > li {
+    margin: 0 15px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(./img/banner-araujo.png);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content:center;   
+    padding: 10px;
+    margin:1px
+}
+.item-home{ 
+    font-weight: 500;
+    position: fixed;
+    top: 2rem;
+    right: 15rem;
+
+}
+.item-reprograma{
+    font-weight: 500;
+    position: fixed;
+    top: 2rem;
+    left: 40rem;
+}
+/* cabeçalho - banner */
+#titulo-principal{
+    text-align: center;
+    padding:5px;
+    margin: 10px;
+}
+.texto-maravilhosa{
+    text-align: center;
+    width: 50%;
+    display: inline-flexbox;
+    padding: 1em;
+    margin-left: 3em;
+}
+.foto-perfil{
+   width: 30%;
+   height: 30%;
+   margin: 20px 20px 20px 20px;
+   border-radius: 20px 20px 20px 20px;
+   float:right;
+   justify-content: center;
+
+}
+/* sessão trabalhos  */
+.sessao-titulo{
+    text-align: center;
+    padding:5px;
+    margin: 10px;
+}
+.icon-personagem{
+    width: 10%;
+    height: 110px;
+    height: 110px;
+    border-radius: 60%;
+    margin: 30px;
+    display: inline-block;
+}
+  
+#icon-personagem{
+    width: 10%;
+    height: 110px;
+    height: 110px;
+    border-radius: 60%;
+    margin: 30px;
+    display:inline-block;
+}
+#icon-personagem{
+    width: 10%;
+    height: 110px;
+    height: 110px;
+    border-radius: 60%;
+    margin: 30px; 
+    display:inline-block;
+}
+#titulo-show{
+    justify-content: center;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    text-align: center;
+    margin: 2.5rem;
+    margin-bottom: 80px;
+}
+/* rodapé */
+.autora__container {
+    background-color:#deaf90;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+}
+
+.autora__img {
+    display: flex;
+}
+
+.autora__info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 36px;
+}
+
+/* media query */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 656px;
+    }
+}
