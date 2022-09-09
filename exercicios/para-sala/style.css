@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: "Monteserrat", Arial, Helvetica, sans-serif;
+    color: #674582;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+text-decoration: none;
+color: #2f0560;
+margin: 2px;
+}
+
+.cabeçalho {
+    background-color: rgb(red, green, blue);
+    box-shadow: rgba(red, green, blue, alpha);
+}
+
+.img-responsive {
+    max-width: 100%;
+    }
+.nav__cabecalh {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+.list_nav {
+    font-size: 18px;
+    display: flex;
+    }
+.lista__nav > li {
+    margin: 0 16px;
+}
+
+.titulo {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(../img/bg-banner.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.titulo__container {
+    font-size: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.maravilhosa {
+    display: flex;
+    max-width: 954px;
+    margin: 0 auto;
+}
+
+.caixa__maravilhosa .maravilhosa__img > img {
+    width: 210px;
+    height: 210px;
+    border-radius: 16px;
+    background-color: #674582;
+}
+
+.paragrafo__maravilhosa {
+    width: 80%;
+    font-size: 30px;
+}
