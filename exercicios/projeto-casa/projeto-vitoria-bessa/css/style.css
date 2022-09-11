@@ -1,0 +1,126 @@
+body {
+    font-family: "stretch";
+    font-style: normal;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#d54e4a;
+}
+
+h1 {
+    color: #d54e4a;
+    position: absolute;
+    width: 1180px;
+    height: 142px;
+    left: 54px;
+    top: 1020px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 72px;
+}
+
+
+.paragrafo__quemenamorena {
+    color: #d54e4a;
+position: absolute;
+width: 1085px;
+height: 536px;
+left: 54px;
+top: 1174px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 35px;
+}
+
+.botao__namorena {
+    position: absolute;
+    width: 1180px;
+    height: 142px;
+    left: 300px;
+    top: 1598px;
+
+font-family: 'Stretch Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 48px;
+}
+
+
+
+.nav__background {
+    background: url("../img/background.png") center;
+    position: absolute;
+    width: 100%;
+    height: 1009px;
+    left: 0px;
+    top: 0px;
+}
+
+.imagem__namorena {
+    position: absolute;
+    width: 1452px;
+    height: 1100px;
+    left: 37px;
+    top: -59px;
+}
+
+.logo__namorena{
+    position: absolute;
+    width: 321px;
+    height: 158px;
+    left: 84px;
+    top: 323px;
+}
+
+.lista__nav {
+    font-size: 18px;
+    display: flex; 
+}
+
+.lista__nav > li {
+    margin: 0 110px;
+
+}
+
+.musica__independente {
+    position: absolute;
+    width: 60px;
+    height: 1598px;
+    left: 1259px;
+    top: 438px;
+}
+
+.botao__youtube {
+position: absolute;
+width: 344px;
+height: 227px;
+left: -29px;
+top: 1530px;
+
+}
+
+.legenda__botao {
+position: absolute;
+width: 1127px;
+height: 38px;
+left: 268px;
+top: 1669px;
+
+font-family: 'Montserrat';
+color: #d54e4a;
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+}
+
