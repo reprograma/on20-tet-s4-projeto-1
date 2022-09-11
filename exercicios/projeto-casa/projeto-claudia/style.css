@@ -1,0 +1,692 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+/*CABEÇALHO*/
+
+
+.imagem__cabecalho{
+    width: 100%;
+    margin: 0;
+    padding-top: 0%;
+}
+
+.logo__cabecalho{
+    width: 50%;
+    top: 5em;
+    right: 5%;
+    position: absolute;
+}
+
+.navbar__nav{
+    background: #254565;
+    padding: 1em;
+    display: flex;
+    margin-top: -5px;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0 5px 20px #254565;
+}
+
+.navbar__nav > li{
+    text-align: justify;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fafafa;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 0 1em;
+}
+
+.navbar__nav > span{
+    display: none;
+}
+
+.navbar__nav > li:hover{
+    color: #ff335f ;
+    font-weight: bold;
+}
+
+
+/*CONTEÚDO*/
+.container{
+    padding: 1em;
+    font-family: 'Roboto Slab', serif;
+    margin: 3em;
+}
+
+h1{
+    margin-bottom: 0.2em;
+    padding: 10px;
+    font-size: 8em;
+    text-align:center;
+}
+
+h2{
+    padding: 5px;
+    font-size: 4em;
+    text-align:left;
+    margin:10px;
+}
+
+p{
+    padding: 2.5;
+    font-size: 1.5em;
+    text-align:left;
+}
+
+blockquote{
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+    margin: 1em;
+    padding: 1em;
+}
+
+.link{
+    color:purple;
+    text-decoration: underline;
+}
+
+.introducao{
+    display: flex;
+}
+
+.container-imagem{
+    width:30%; 
+    text-align:center;
+}
+
+.container-introducao{
+    width:70%;
+    padding-top: 1em;
+}
+
+.container-texto{
+    width:80%;
+}
+
+/*Percurso*/
+
+.container-percurso{
+    display: flex;
+}
+
+.imagem-percurso{
+    width: 15em;
+}
+
+.container-trinta{
+    width: 30%;
+    text-align:center;
+}
+
+.container-setenta{
+    width: 70%;
+    padding-top: 1em;
+}
+
+/* Centro Psiquiátrico do Engenho de Dentro */
+.container-trabalho{
+    display: flex;
+}
+.imagem-trabalho{
+    width: 15em;
+}
+
+.container-imagem-esquerda{
+    width: 20%;
+    text-align:center;
+}
+
+.container-texto-direito{
+    width: 80%;
+    padding: 1em;
+}
+
+.container-inconsciente{
+    display: flex;
+}
+
+.imagem-inconsciente{
+    width: 80%;
+}
+
+/*RODAPÉ*/
+.rodape{
+    display: flex;
+    flex-direction: row;    
+}
+
+.rodape__principal-container{
+    width: 100%;
+    /* background: linear-gradient(180deg,#43a7eb, #254565,#4c749c,#254565); */
+    background: linear-gradient(#254565,#254565);
+    text-align: center;
+}
+
+.rodape__navegacao{
+    padding: 1em;
+    display: flex;
+}
+
+.rodape__navegacao > li{
+    max-width: 50%;
+    padding: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.rodape__navegacao > li:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 10px 5px black;
+    font-size: 1em;
+}
+
+.img-responsive-logo{
+    bottom: auto;
+    width: 25em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.rodape__redes-sociais{
+   padding: 1em;
+    text-align: center;
+    background: linear-gradient(#254565,#7d144c);
+}
+
+.item__redes-sociais{
+    width: 5em;
+    height: 5em;
+    margin: 1em 0 1em 2em;
+}
+
+.item__redes-sociais:hover{
+    background: linear-gradient(to right, #ebcea0 , #fc7765,#ff335f);
+    border-radius: 1.5em;
+}
+
+.rodape__cc{
+    font-size: 10px;
+    background: #7d144c;
+    padding: 1em;
+}
+
+.rodape__cc p{
+    text-align: center;
+}
+
+
+/*Responsividade*/
+
+@media(max-width:480px) {
+    *{
+        font-family: 'Roboto Slab', serif;
+        padding: 0;
+        margin: auto;
+    }
+    /*CABEÇALHO*/
+    
+    
+    .imagem__cabecalho{
+        display: none;
+    }
+
+    .logo__cabecalho{
+        display: none;
+    }
+
+    
+    .navbar__nav{
+        width: 100%;
+        display: table-column;
+        background: #254565;
+        
+        position: fixed;
+        top:0%;
+        left: 0%;
+        right: 0%;
+        box-shadow: 0 5px 20px #254565;
+    }
+    
+    .navbar__nav > span{
+        display: block;
+        color: #fafafa;
+        padding-bottom: 12px;
+    }
+    
+    .navbar__nav:hover > li{
+        display: block;
+    }
+    
+
+    .navbar__nav > li{
+        font-size: 2.5em;
+        text-decoration: none;
+        color: #fafafa;
+        font-family: 'Roboto Slab', serif;
+        margin: 0 0 0 1em;
+        font-size: 10px;
+        padding: 1em;
+        display: none;
+    }
+    
+    .navbar__nav > li:hover{
+        color: #ff335f ;
+        font-weight: bold;
+    }
+    
+    
+    /*CONTEÚDO*/
+    .container{
+        font-family: 'Roboto Slab', serif;
+        padding: 1em;
+        margin: 0%;
+    }
+    
+    h1{
+        padding: 1.5em;;
+        margin-bottom: 0.2em;
+        font-size: 2em;
+        text-align:center;
+    }
+    
+    h2{
+        font-size: 1em;
+        text-align:left;
+        font-weight: bolder;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    blockquote{
+        font-family: 'EB Garamond', serif;
+        font-size: 1em;
+        margin: 1em;
+        padding: 1em;
+    }
+    
+    .link{
+        color:purple;
+        text-decoration: underline;
+    }
+    
+  
+    .introducao, .container-percurso, .container-inconsciente, .container-trabalho{
+        display: block;
+
+    }
+
+    .container-imagem, .imagem-percurso, .imagem-inconsciente, .imagem-trabalho{
+        width:100%; 
+        text-align:center;
+        padding-top: 12px;
+    }
+    
+    .container-introducao{
+        width:100%;
+        padding-top: 1em;
+    }
+    
+    .container-texto{
+        width:100%;
+    }
+    
+    /*Percurso*/
+        
+    .imagem-percurso{
+        width:100%;
+    }
+    
+    .container-trinta{
+        width:100%;
+        text-align:center;
+    }
+    
+    .container-setenta{
+        width:100%;
+        padding-top: 1em;
+    }
+    
+    /* Centro Psiquiátrico do Engenho de Dentro */
+   
+    .imagem-trabalho{
+        width:100%;
+    }
+    
+    .container-imagem-esquerda{
+        width:100%;
+        text-align:center;
+    }
+    
+    .container-texto-direito{
+        width:100%;
+        padding: 1em;
+    }
+        
+    .imagem-inconsciente{
+        width:100%;
+    }
+    
+    /*RODAPÉ*/
+    .rodape{
+        display: flex;
+        flex-direction: row;    
+    }
+    
+    .rodape__principal-container{
+        width: 100%;
+        /* background: linear-gradient(180deg,#43a7eb, #254565,#4c749c,#254565); */
+        background: linear-gradient(#254565,#254565);
+        text-align: center;
+    }
+    
+    .rodape__navegacao{
+        padding: 1em;
+        display: flex;
+    }
+    
+    .rodape__navegacao > li{
+        max-width: 50%;
+        padding: 10px;
+        flex-direction: row;
+        text-decoration: none;
+        color: #f0f0f0;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .rodape__navegacao > li:hover{
+        display: inline-block;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        box-shadow: 2px 10px 5px black;
+        font-size: 1em;
+    }
+    
+    .img-responsive-logo{
+        bottom: auto;
+        width: 25em;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .rodape__redes-sociais{
+       padding: 1em;
+        text-align: center;
+        background: linear-gradient(#254565,#7d144c);
+    }
+    
+    .item__redes-sociais{
+        width: 5em;
+        height: 5em;
+        margin: 1em 0 1em 2em;
+    }
+    
+    .item__redes-sociais:hover{
+        background: linear-gradient(to right, #ebcea0 , #fc7765,#ff335f);
+        border-radius: 1.5em;
+    }
+    
+    #video iframe{
+        width: 100%;
+        height: 200px;
+    }
+
+    #referencias > h2{
+        font-size: 1em;
+    }
+
+    .rodape__cc{
+        font-size: 10px;
+        background: #7d144c;
+        padding-bottom: 12px;
+    }
+    
+    .img-responsive-logo{
+        width:100%;
+    }
+
+}
+
+
+@media(min-width:480px) and (max-width:1000px) {
+    *{
+        font-family: 'Roboto Slab', serif;
+        padding: 0;
+        margin: auto;
+    }
+    /*CABEÇALHO*/
+    
+    
+    .imagem__cabecalho{
+        display: none;
+    }
+
+    .logo__cabecalho{
+        display: none;
+    }
+
+    
+    .navbar__nav{
+        width: 100%;
+        display: table-column;
+        background: #254565;
+        
+        position: fixed;
+        top:0%;
+        left: 0%;
+        right: 0%;
+        box-shadow: 0 5px 20px #254565;
+    }
+    
+    .navbar__nav > span{
+        display: block;
+        color: #fafafa;
+        padding-bottom: 12px;
+    }
+    
+    .navbar__nav:hover > li{
+        display: block;
+    }
+    
+
+    .navbar__nav > li{
+        font-size: 2.5em;
+        text-decoration: none;
+        color: #fafafa;
+        font-family: 'Roboto Slab', serif;
+        margin: 0 0 0 1em;
+        font-size: 10px;
+        padding: 1em;
+        display: none;
+    }
+    
+    .navbar__nav > li:hover{
+        color: #ff335f ;
+        font-weight: bold;
+    }
+    
+    
+    /*CONTEÚDO*/
+    .container{
+        padding: 1em;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    h1{
+        padding: 0.5em;;
+        margin-bottom: 0.2em;
+        font-size: 3.5em;
+        text-align:center;
+    }
+    
+    h2{
+        font-size: 2em;
+        text-align:left;
+        font-weight: bolder;
+    }
+    
+    p{
+        width: 100%;
+        font-size: 1.1em;
+    }
+    
+    blockquote{
+        font-family: 'EB Garamond', serif;
+        font-size: 1.5em;
+        margin: 1em;
+        padding: 1em;
+    }
+    
+    .link{
+        color:purple;
+        text-decoration: underline;
+    }
+    
+  
+    .introducao, .container-percurso, .container-inconsciente, .container-trabalho{
+        display: block;
+
+    }
+
+    .container-imagem, .imagem-percurso, .imagem-inconsciente, .imagem-trabalho{
+        width:100%; 
+        text-align:center;
+        padding-top: 12px;
+    }
+    
+    .container-introducao{
+        width:100%;
+        padding-top: 1em;
+    }
+    
+    .container-texto{
+        width:100%;
+    }
+    
+    /*Percurso*/
+        
+    .imagem-percurso, .imagem-inconsciente, .imagem-trabalho{
+        width:50%;
+    }
+    
+    .container-trinta{
+        width:100%;
+        text-align:center;
+    }
+    
+    .container-setenta{
+        width:100%;
+        padding-top: 1em;
+    }
+    
+    /* Centro Psiquiátrico do Engenho de Dentro */
+    
+    .container-imagem-esquerda{
+        width:100%;
+        text-align:center;
+    }
+    
+    .container-texto-direito{
+        width:100%;
+        padding: 1em;
+    }
+    
+    /*RODAPÉ*/
+    .rodape{
+        display: flex;
+        flex-direction: row;    
+    }
+    
+    .rodape__principal-container{
+        width: 100%;
+        /* background: linear-gradient(180deg,#43a7eb, #254565,#4c749c,#254565); */
+        background: linear-gradient(#254565,#254565);
+        text-align: center;
+    }
+    
+    .rodape__navegacao{
+        padding: 1em;
+        display: flex;
+    }
+    
+    .rodape__navegacao > li{
+        max-width: 50%;
+        padding: 10px;
+        flex-direction: row;
+        text-decoration: none;
+        color: #f0f0f0;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .rodape__navegacao > li:hover{
+        display: inline-block;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-around; */
+        box-shadow: 2px 10px 5px black;
+        font-size: 1em;
+    }
+    
+    .img-responsive-logo{
+        bottom: auto;
+        width: 25em;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .rodape__redes-sociais{
+       padding: 1em;
+        text-align: center;
+        background: linear-gradient(#254565,#7d144c);
+    }
+    
+    .item__redes-sociais{
+        width: 5em;
+        height: 5em;
+        margin: 1em 0 1em 2em;
+    }
+    
+    .item__redes-sociais:hover{
+        background: linear-gradient(to right, #ebcea0 , #fc7765,#ff335f);
+        border-radius: 1.5em;
+    }
+    
+    #video iframe{
+        width: 100%;
+        height: 400px;
+    }
+
+    #referencias > h2{
+        font-size: 1em;
+    }
+
+    .rodape__cc{
+        font-size: 10px;
+        background: #7d144c;
+        padding-bottom: 12px;
+    }
+    
+    .img-responsive-logo{
+        width:100%;
+    }
+
+}
