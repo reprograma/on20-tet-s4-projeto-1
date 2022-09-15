@@ -97,7 +97,7 @@ a {
   font-size:36px;
   text-align: center;
   margin: 2em 0 2em auto;
-  color: #d35e0a;
+  color: #000000;
 }
 
 .maravilhosa {
@@ -108,7 +108,7 @@ a {
 }
 
 .maravilhosa .maravilhosa__img > img {
-  width: 35%;
+  width: 45%;
   border-radius: 16px;
   float: left;
   margin: 20px 50px 20px 20px;
@@ -123,8 +123,8 @@ a {
 .citacao {
   font-size: 25px;
   text-align: center;
-  background-color: #d35e0a;
-  color: white;
+  background-color: #a74ce4;
+  color: rgba(3, 3, 3, 0.89);
   width: auto;
   height: 30px;
   border: 2px solid #694290;
@@ -145,7 +145,7 @@ a {
 
 .paragrafo__historia--ultimo {
   font-size: 20px;
-  color: #d35e0a;
+  color: #4b2967;
 }
 
 /* info */
