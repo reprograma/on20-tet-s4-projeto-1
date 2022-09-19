@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* define que as imagens tem que ter o tamanho máximo da div mãe */
+  .img-responsive {
+    width: 100%;
+    height: 100%;
+    /* garante que a imagem vai ocupar todo o conteúdo da div sem distorce */
+    object-fit: cover;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  .navbar {
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 104px;
+  }
+  
+  .navbar__logo {
+    max-width: 200px;
+  }
+  
+  .navbar__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .navbar__nav {
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+  }
+  
+  .navbar__nav > li {
+    margin: 0 16px;
+    font-weight: bold;
+  }
+  
+  .navbar__nav--hamburguer {
+    display: none;
+  }
+  
+  .header {
+    min-height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/bg-banner.png);
+    display: flex;
+  }
+  
+  .header__box {
+    max-width: 526px;
+    position: relative;
+    top: 350px;
+    background-color: #f9f1f1;
+    border-radius: 24px;
+    padding: 24px;
+  }
+  
+  .header__box--titulo {
+    font-size: 26px;
+    color: #63458a;
+  }
+  
+  .header__box--subtitulo {
+    font-size: 18px;
+    margin: 24px 0;
+  }
+  
+  /* define o tamanho da caixa */
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  /* --- FOOTER --- */
+  
+  .rodape {
+    background-color: #323534;
+    color: white;
+  }
+  
+  .rodape__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rodape__principal > * {
+    margin: 16px 0;
+  }
+  
+  .rodape__navegacao > li {
+    font-size: 14px;
+    margin: 8px;
+  }
+  
+  .rodape__navegacao a {
+    transition: all 0.5s;
+  }
+  
+  .rodape__navegacao a:hover {
+    color: #c083b9;
+  }
+  
+  .rodape__logo {
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rodape__redes-sociais a{
+   margin: 0 4px;
+  }
+  
+  .rodape__cc {
+    width: 100%;
+    background-color: #292a2a;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* --- BOTAO --- */
+  
+  .btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .btn_roxo {
+    color: white;
+    background-color: #c083b9;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 0 auto;
+  }
+  
+  .btn_roxo:hover,
+  .btn_roxo:focus {
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(192, 156, 188);
+  }
+  
+  
+  /* --- SECTION MARAVILHOSAS --- */
+  
+  .maravilhosas__titulo {
+    color: #63458a;
+    font-size: 20px;
+    text-align: center;
+    margin: 36px 0;
+  }
+  
+  .maravilhosas__box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #63458a;
+    margin-bottom: 96px;
+  }
+  
+  .maravilhosas__perfil {
+    margin: 2rem;
+    text-align: center;
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .maravilhosas__perfil img {
+    border-radius: 10px;
+  }
+  
+  .maravilhosas__perfil a img {
+    transition: all 0.5s;
+  
+  }
+  
+  
+  @media (max-width: 1440px) {
+    .header__box {
+      top: 300px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 80vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar__nav {
+      display: none;
+    }
+    .navbar__nav--hamburguer {
+      display: block;
+      height: 36px;
+    }
+    .navbar {
+      height: 96px;
+    }
+    .navbar__logo {
+      max-width: 196px;
+    }
+  
+    .rodape__principal {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .header__box {
+      top: 250px;
+    }
+    .maravilhosa-profile {
+       max-width: 100%;
+    }
+    img {
+        max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .header__box {
+      top: 180px;
+    }
+  }
+  
